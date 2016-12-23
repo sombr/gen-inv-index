@@ -1,0 +1,1 @@
+perl -e 'use JSON; use Digest::MD5 qw/md5_hex/; for my $i (1..10) { print JSON->new->encode({ timestamp => time(), requestID => md5_hex($i), A => int(rand(10000)), B => uc(sprintf(q{%x}, int(rand(1000000)))) }) . "\n";}'
