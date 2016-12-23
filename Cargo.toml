@@ -1,0 +1,15 @@
+[package]
+name = "gen-inv-index"
+version = "0.1.0"
+authors = ["Serge Toropov <toropovs@amazon.com>"]
+
+[build-dependencies]
+serde_codegen = "0.8"
+
+[dependencies]
+serde = "0.8"
+serde_json = "0.8"
+rmp-serde = "0.10"
+rustc-serialize = "0.3"
+clap = "2.19"
+threadpool = "1.3"
