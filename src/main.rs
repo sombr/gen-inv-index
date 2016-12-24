@@ -1,6 +1,7 @@
 extern crate serde;
 extern crate serde_json;
 extern crate rustc_serialize;
+extern crate inv_index;
 
 extern crate clap;
 use clap::{Arg, App};
